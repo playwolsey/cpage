@@ -1,0 +1,9 @@
+doctype 5
+html(lang="zh", class="#{ htmlClass || ''}")
+  head
+    include include/head
+  body(class="#{ bodyClass || ''}")
+    #page
+      block content
+    .clear
+    #page_overlay.overlay(style="display: none;")
