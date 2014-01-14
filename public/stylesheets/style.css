@@ -29,6 +29,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   font-family: 'Proxima Nova', 'proxima-nova-1', 'proxima-nova-2', 'Helvecica Neue', Arial, sans-serif;
+  background: #DD0;
+  color: #223;
 }
 
 #wrap {
