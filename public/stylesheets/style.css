@@ -27,10 +27,14 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+/* always force a scrollbar in non-IE: */
+html { overflow-y: scroll; }
+
 body {
   font-family: 'Proxima Nova', 'proxima-nova-1', 'proxima-nova-2', 'Helvecica Neue', Arial, sans-serif;
   background: #DD0;
   color: #223;
+  min-width: 1000px;
 }
 
 #wrap {
@@ -76,9 +80,9 @@ section {
 #nav li a {
   text-decoration: none;
   display: block;
-  background: #EEF;
+  background: white;
   background: hsla(0, 0%, 90%, 0.85);
-  color: blue;
+  color: #223;
   padding: 8px 15px;
 }
 
