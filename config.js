@@ -1,4 +1,4 @@
-mdule.exports = {
+module.exports = {
     listen: 4000,
     dev_mode: true,
     //host: 'canbaobaoyaozhangda.com',
