@@ -1,7 +1,106 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kdb, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #DD0;
+  font-family: 'Proxima Nova', 'proxima-nova-1', 'proxima-nova-2', 'Helvetica Neue', Arial, sans-serif;
 }
-a {
-  color: #00b7ff;
+
+#wrap {
+  position: fixed;
+  width: 100%;
 }
+
+#container {
+  position: relative;
+  width: 900px;
+  margin: 10px auto;
+}
+
+#content {
+  position: absolute;
+}
+
+section {
+  width: 900px;
+  height: 540px;
+  margin-bottom: 80px;
+  postion: absolute;
+  z-index: 1;
+}
+
+/* nav
+ * */
+#nav {
+  margin: 0 auto 10px;
+  overflow: auto;
+  width: 880px;
+  position: relative;
+  z-index: 100;
+}
+
+#nav li {
+  list-style: none;
+  float: left;
+  font-weight: bold;
+}
+
+#nav li a {
+  text-decoration: none;
+  display: block;
+  background: #eef;
+  background: hsla(0, 0%, 90%, 0.85);
+  color: blue;
+  padding: 8px 15px;
+}
+
+#nav li a:hover {
+  background: red;
+  color: white;
+}
+
+/* Section-specific layout */
+#bio h1 {
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 105px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
