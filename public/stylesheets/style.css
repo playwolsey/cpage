@@ -50,6 +50,7 @@ body {
 
 #content {
   position: absolute;
+  background-color: #000;
 }
 
 section {
@@ -64,7 +65,7 @@ section {
  * nav
  */
 #nav {
-  margin: 0px auto 10px;
+  /*margin: 0px auto 10px;*/
   overflow: auto;
   width: 880px;
   position: relative;
