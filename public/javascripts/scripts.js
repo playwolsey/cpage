@@ -103,5 +103,19 @@
   };
 
   function init() {
+    var content = document.getElementById('content'),
+        navLinks = document.querySelectorAll('#nav a'),
+
+        ZUI = new Zoomer(content, navLinks);
+    
+    function scrollToHash() {
+      if (window.location.hash) {
+        ZUI.scrollFormHash(window.location.hash);
+      }
+    }
+
+    window.addEventListener('load', scrollToHash, false);
   }
+
+  window.addEventListener('DOMContentLoaded', init, false);
 })();
