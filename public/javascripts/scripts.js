@@ -69,7 +69,7 @@
     }
   };
 
-  Zoomer.prototype.scrollFromHash = function(hash) {
+  Zoomer.prototype.scrollFormHash = function(hash) {
     var targetLevel = this.levelGuide[hash];
 
     if (targetLevel === undefined) {
